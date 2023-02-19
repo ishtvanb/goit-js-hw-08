@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://ishtvanb.github.io/goit-js-hw-08",
   "scripts": {
-    "start": "parcel src/*.html-p 1122 --open",
+    "start": "parcel src/*.html-p 1234 --open",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
-  },
+ },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "parcel": "^2.6.0",
