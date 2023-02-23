@@ -29,7 +29,8 @@ function fillInForm() {
     const savedData = localStorage.getItem(STORAGE_KEY);
 
     if (savedData) {
-        objectToSave = savedData;
+        email.value = savedData.email;
+        message.value = savedData.message;
     }
 }
     
